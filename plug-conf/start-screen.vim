@@ -1,5 +1,5 @@
 " donde guardar las sesiones
-let g:startify_session_dir = '~/AppData/Local/nvim/session'
+let g:startify_session_dir = '~/.config/nvim/session'
 
 " como mostrar lass listas
 let g:startify_lists = [
@@ -11,6 +11,6 @@ let g:startify_lists = [
 
 " Atajos rapidos
 let g:startify_bookmarks = [
-      \ { 'i': 'E:/ProyectosIonic' },
-      \ '~/AppData/Local/nvim',
+      \ { 'i': '/mnt/e/ProyectosIonic' },
+      \ '~/.config/nvim',
       \ ]

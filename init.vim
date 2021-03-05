@@ -8,18 +8,20 @@
 
 "---------------------------------vim config----------------------------
 
-source C:/Users/User/AppData/Local/nvim/general/settings.vim
-source C:/Users/User/AppData/Local/nvim/general/commands.vim
+source ~/.config/nvim/general/settings.vim
+source ~/.config/nvim/general/commands.vim
 " -------------------------------Plugins-------------------------------
 "Plugins
-source C:/Users/User/AppData/Local/nvim/vim-plug/plugins.vim
-source C:/Users/User/AppData/Local/nvim/plugins/plug-config.vim
+source ~/.config/nvim/vim-plug/plugins.vim
 
-source C:/Users/User/AppData/Local/nvim/plug-conf/start-screen.vim
-source C:/Users/User/AppData/Local/nvim/plug-conf/coc.vim
-source C:/Users/User/AppData/Local/nvim/plug-conf/fzf.vim
-source C:/Users/User/AppData/Local/nvim/plug-conf/airline.vim
-source C:/Users/User/AppData/Local/nvim/plug-conf/easymotion.vim
+source ~/.config/nvim/plug-conf/start-screen.vim
+source ~/.config/nvim/plug-conf/coc-config.vim
+source ~/.config/nvim/plug-conf/coc.vim
+source ~/.config/nvim/plug-conf/fzf.vim
+source ~/.config/nvim/plug-conf/airline.vim
+source ~/.config/nvim/plug-conf/easymotion.vim
+source ~/.config/nvim/plug-conf/ctags.vim
+" source ~/.config/nvim/plug-conf/barbar.vim
 "--------------------------------Plugins Config--------------------------------------------
 " --Seleccion de Tema--
 colorscheme dracula

@@ -1,5 +1,9 @@
 
 call plug#begin('~/.vim/plugged')
+
+" Lua Support
+Plug 'wolfgangmehner/lua-support'
+
 " Temas
 Plug 'tomasiser/vim-code-dark'
 Plug 'sonph/onehalf', { 'rtp': 'vim'  }
@@ -16,6 +20,18 @@ Plug 'easymotion/vim-easymotion'
 
 " Start Screen
 Plug 'mhinz/vim-startify'
+
+" Better Comments
+Plug 'tpope/vim-commentary'
+
+" Ctags para hacer saltos sobre la definicion de un objeto o funcion
+" Plug 'webastien/vim-ctags'
+
+" mejor barra de tabs
+" Plug 'romgrk/barbar.nvim'
+"
+"" galaxyline
+" Plug 'glepnir/galaxyline.nvim' , {'branch': 'main'}
 
 "Navegar con C-h C-l C-j C-k
 Plug 'christoomey/vim-tmux-navigator'
@@ -41,6 +57,11 @@ Plug 'norcalli/nvim-colorizer.lua'
 Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
 Plug 'junegunn/fzf.vim',
 Plug 'stsewd/fzf-checkout.vim'
+" Telescope
+Plug 'BurntSushi/ripgrep'
+Plug 'nvim-lua/popup.nvim'
+Plug 'nvim-lua/plenary.nvim'
+Plug 'nvim-telescope/telescope.nvim'
 
 " Typescript
 Plug 'leafgarland/typescript-vim'
