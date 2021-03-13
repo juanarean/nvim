@@ -21,7 +21,7 @@ source ~/.config/nvim/plug-conf/fzf.vim
 source ~/.config/nvim/plug-conf/airline.vim
 source ~/.config/nvim/plug-conf/easymotion.vim
 source ~/.config/nvim/plug-conf/ctags.vim
-" source ~/.config/nvim/plug-conf/barbar.vim
+source ~/.config/nvim/plug-conf/comments.vim
 "--------------------------------Plugins Config--------------------------------------------
 " --Seleccion de Tema--
 colorscheme dracula

@@ -20,7 +20,7 @@ vnoremap > >gv
 " Coipar, cortar y pegar como dios manda
 vmap <C-x> "*d
 vmap <C-c> "*y
-nmap <C-p> "*p <Esc>
+nmap <C-v> "*p <Esc>
 
 " --------------------- de ChrisAtMachine -----------------------------
 " TAB en modo normal se moverá al siguiente buffer
