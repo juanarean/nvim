@@ -21,8 +21,6 @@ source ~/.config/nvim/plug-conf/fzf.vim
 source ~/.config/nvim/plug-conf/airline.vim
 source ~/.config/nvim/plug-conf/easymotion.vim
 source ~/.config/nvim/plug-conf/comments-conf.vim
-" source ~/.config/nvim/plug-conf/ctags.vim
-" source ~/.config/nvim/plug-conf/barbar.vim
 "--------------------------------Plugins Config--------------------------------------------
 " --Seleccion de Tema--
 " set background=dark
