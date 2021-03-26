@@ -14,6 +14,7 @@ source ~/.config/nvim/general/commands.vim
 "Plugins
 source ~/.config/nvim/vim-plug/plugins.vim
 
+source ~/.config/nvim/plug-conf/signify.vim
 source ~/.config/nvim/plug-conf/start-screen.vim
 source ~/.config/nvim/plug-conf/coc-config.vim
 source ~/.config/nvim/plug-conf/coc.vim

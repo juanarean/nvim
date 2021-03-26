@@ -44,6 +44,9 @@ Plug 'vim-airline/vim-airline-themes'
 
 " Fugitive, es para manejar git
 Plug 'tpope/vim-fugitive'
+Plug 'mhinz/vim-signify'
+Plug 'tpope/vim-rhubarb'
+Plug 'junegunn/gv.vim'
 
 " Stable version of coc
 Plug 'neoclide/coc.nvim', {'branch': 'release'}
