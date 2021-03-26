@@ -67,7 +67,7 @@ let g:fzf_layout = {'up':'~90%', 'window': { 'width': 0.8, 'height': 0.8,'yoffse
 
 " comandos de busqueda
 nmap <leader>ag :Ag<CR>
-nmap <leader>gs  :CocSearch
+nmap <leader>cs  :CocSearch
 nmap <leader>fs :FZF<CR>
 nmap <leader>rg :Rg<CR>
 nnoremap <leader>gb :GBranches<CR>

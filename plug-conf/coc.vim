@@ -1,7 +1,7 @@
 " Coc extensiones
 let g:coc_global_extensions = ['coc-json', 'coc-tsserver', 'coc-emmet', 'coc-tslint', 'coc-prettier', 'coc-angular', 'coc-powershell', 'coc-snippets', 'coc-git', 'coc-explorer', 'coc-fzf-preview', 'coc-html-css-support', 'coc-html']
 
-:nnoremap <leader>e :CocCommand explorer<CR>
+:nnoremap <leader>ex :CocCommand explorer<CR>
 
 " Explorer
 
@@ -47,7 +47,7 @@ let g:coc_explorer_global_presets = {
 
 " Use preset argument to open it
 nnoremap <space>ed :CocCommand explorer --preset .vim<CR>
-nnoremap <space>ef :CocCommand explorer --preset floating<CR>
+nnoremap <space>e :CocCommand explorer --preset floating<CR>
 nnoremap <space>ec :CocCommand explorer --preset cocConfig<CR>
 nnoremap <space>eb :CocCommand explorer --preset buffer<CR>
 

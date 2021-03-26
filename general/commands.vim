@@ -22,6 +22,9 @@ vmap <C-x> "*d
 vmap <C-c> "*y
 nmap <leader>p "*p <Esc>
 
+" Git
+nmap <leader>gs :Gstatus<CR>
+
 " --------------------- de ChrisAtMachine -----------------------------
 " TAB en modo normal se moverá al siguiente buffer
 nnoremap <silent> <TAB> :bnext<CR>
