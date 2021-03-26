@@ -10,6 +10,8 @@ Plug 'sonph/onehalf', { 'rtp': 'vim'  }
 Plug 'dracula/vim', { 'as': 'dracula'  }
 Plug 'arcticicestudio/nord-vim'
 Plug 'gosukiwi/vim-atom-dark'
+Plug 'sainnhe/gruvbox-material'
+Plug 'NLKNguyen/papercolor-theme'
 
 " Iconos
 Plug 'ryanoasis/vim-devicons'

@@ -11,6 +11,6 @@ let g:startify_lists = [
 
 " Atajos rapidos
 let g:startify_bookmarks = [
-      \ { 'i': '/mnt/e/ProyectosIonic' },
+      \ { 'p': '/home/jarean/Portales' },
       \ '~/.config/nvim',
       \ ]
